@@ -115,6 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /* Modify these to change your theme colors: */
 --primary: #61AFEF;
 --text: white;
+--bg: #222;
 }
 
 body {
@@ -123,7 +124,25 @@ body {
   text-rendering: optimizeLegibility important;
   font-weight: 400 !important;
   word-spacing: -1px;
+  background-color: var(--bg) !important;
 }
+
+#client_body::before {
+  background-color: #1a1a1a !important; /* should be slightly darker than bg */
+}
+
+#footer_msgs {
+  background-color: var(--bg) !important;
+}
+
+.channel_header {
+  background-color: var(--bg) !important;
+}
+
+div.c-virtual_list__scroll_container {
+  background-color: var(--bg) !important;
+}
+
 div.c-message.c-message--light.c-message--hover {
   color: grey !important;
 }
@@ -141,9 +160,7 @@ div.p-message_pane__foreword__description span {
   font-size: 15px;
   letter-spacing: 0.3px !important;
 }
-div.c-virtual_list__scroll_container {
-  background-color: #222222 !important;
-}
+
 .light_theme ts-message .timestamp {
   line-height: 18px;
   opacity: 0;
@@ -821,13 +838,26 @@ a.file_download_link:hover {
   color: white !important;
 }
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name{
-  border-left: 2px solid #fe00e9;
+  // padding-left: 7px !important;
+  // border-top-left-radius: 14px !important;
+  // border-left: 2px solid #fe00e9;
+  color: #ff42ef !important;
   padding-left: 6px;
   height: 20px;
   overflow: hidden;
   line-height: 16px;
   font-size: 17px;
- font-weight:700;
+  font-weight:700;
+}
+.p-channel_sidebar__channel--unread::before{
+  color: #fe00e9 !important;
+  content: '👀' !important;
+  opacity: 1;
+  width: 22px;
+  // background: #fe00e9;
+  // width: 10px;
+  // height: 10px;
+  // border-radius: 50%
 }
 .p-search_filter__date_readout {
   color: #8a90ff !important;
@@ -938,25 +968,32 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
       background: #923386 !important;
       color: white !important;
   }
+  .p-threads_view__default_background {
+    background-color: #323232 !important;
+  }
+  .p_threads_view_load_older_button {
+    background-color: #252525 !important;
+  }
   .p-threads_footer__input {
-      background:black;
+    background-color: #545454 !important;
   }
   .p-threads_footer__input .p-message_input_field {
       border-color: transparent !important;
-      background: #adadad !important; color: black !important;}
+  }
 .p-threads_footer__input .p-message_input_field.focus {
   border-color: transparent !important;
-  background: #adadad !important; color: black !important;}
+}
   .p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover){
       border-color: transparent;
-      color:white !important;
-  }
-  .p-threads_footer__input--legacy .p-message_input_field .ql-editor{
-      color:black !important;
   }
   .p-threads_footer__input--legacy .p-message_input_file_button{
       border: transparent !important;
   }
+
+  .p-threads_footer__input .p-message_input_field, .p-threads_footer__input--legacy .p-message_input_field {
+    background-color: #545454 !important;
+  }
+
 .p-threads_footer__input--legacy .p-message_input_plus {
   border: 1px solid transparent !important;
   border-radius: 4px 0 0 4px;
@@ -970,13 +1007,27 @@ color:white !important;
   padding-bottom: 6px;
   border-radius: 4px;
   border-color: #868686;
-  background: black;
-  color: white;}
+}
 
 .p-threads_footer__input .p-message_input_plus .p-message_input_plus_icon {
   transform: scale(1.11);
   color: white;
+  background-color: #545454 !important;
 }
+.c-channel_name p-threads_view_header__channel_name {
+  color: #d5d5d5 !important;
+}
+.c-channel_name {
+  color: #d5d5d5 !important;
+}
+
+.c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply p-threads_view_reply--new_reply {
+  background: #656565 !important;
+}
+.p-threads_view_reply--new_reply {
+  background: #656565 !important;
+}
+
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea{
   colo:white !important;
   opacity:1 !important;
