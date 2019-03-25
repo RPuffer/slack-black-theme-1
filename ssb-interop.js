@@ -118,9 +118,10 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 body {
+  font-family: 'Lato', sans-serif !important;
   /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
   text-rendering: optimizeLegibility important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   word-spacing: -1px;
 }
 div.c-message.c-message--light.c-message--hover {

@@ -23,6 +23,7 @@ Go to Application  and right click on Slack  > Show Package Content
 Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js
 
 Replace your CURRENT **ssb-interop.js** File
+Located at `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/`
 
 #### With this
 
