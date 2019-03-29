@@ -439,6 +439,10 @@ ts-message .mention {
 .c-mrkdwn__user_group--mention:hover {
   color: black !important
 }
+
+.c-mrkdwn__user_group--link {
+  background: black;
+}
 #threads_msgs .inline_message_input_container.with_file_upload {
   border: 2px solid #545454!important;
 }
