@@ -870,6 +870,15 @@ a.file_download_link:hover {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+  color: white;
+}
+
+.c-icon_button--light.c-button-unstyled:hover, .c-icon_button--light:hover, .c-icon_button--light:link:hover {
+  color: hotpink;
+}
+
 .c-calendar_month__day_of_week_heading {
   color: white;
 }
