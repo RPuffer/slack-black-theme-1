@@ -100,7 +100,7 @@ div.p-message_pane__foreword__description span {
 	border-color: transparent !important;
 }
 div.c-message__content:hover {
-	background-color: #282828 !important;
+	background-color: var(--bg-med) !important;
 }
 .c-team__display-name,
 .c-unified_member__display-name,
@@ -1207,7 +1207,19 @@ a.c-message__sender_link {
 }
 
 .c-message .c-message--light .c-message--hover {
-	background: var(--bg-highlight);
+	background: var(--bg-highlight) !important;
+}
+
+.c-message_actions__container .c-message_actions {
+	background: var(--bg-highlight) !important;
+}
+
+.c-message:hover .c-message--light:hover .c-message--hover:hover {
+	background: var(--bg-highlight) !important;
+}
+
+.c-message_actions__container:hover .c-message_actions:hover {
+	background: var(--bg-highlight) !important;
 }
 
 
