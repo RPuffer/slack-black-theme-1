@@ -80,9 +80,6 @@ div.p-message_pane__foreword__description span {
 	> .c-scrollbar__hider {
 	z-index: 0;
 }
-.c-scrollbar__hider {
-	background: var(--bg-med) !important;
-}
 #team_menu,
 #team_menu_overlay {
 	background: var(--bg-med) !important;
@@ -1221,6 +1218,7 @@ a.c-message__sender_link {
 .c-message_actions__container:hover .c-message_actions:hover {
 	background: var(--bg-highlight) !important;
 }
+
 
 
 /********************************************************
