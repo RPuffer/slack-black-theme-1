@@ -66,7 +66,6 @@ if (window.location.href !== 'about:blank') {
       });
 
   const { init } = require('electron-compile');
-  const { assignIn } = require('lodash');
   const path = require('path');
 
   const { isPrebuilt } = require('../utils/process-helpers');
@@ -101,13 +100,12 @@ if (window.location.href !== 'about:blank') {
 
 
 
-// Slack Night Mood theme
+// Slack Dark Mode
 document.addEventListener("DOMContentLoaded", function() {
   // Then get its webviews
   let webviews = document.querySelectorAll(".TeamView webview");
   // Fetch our CSS in parallel ahead of time
   const cssPath = 'https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/dark.css';
-  const localCssPath = 'sib.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
   let customCSS = `
