@@ -54,21 +54,14 @@ Ideally, I would get rid of the use of `!important` but its not a huge priority 
 https://www.fontsquirrel.com/fonts/lato
 
 
-
 ## Second:
-
-Go to Application  and right click on Slack  > Show Package Content
-Contents > Resources > app.asar.unpacked > src > static >  ssb-interop.js
 
 Replace your CURRENT **ssb-interop.js** File
 Located at `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/`
 
 #### With this
 
-http://neckcode.com/slack/ssb-interop.js.zip
-
-OR
-[View file on GitHub](https://github.com/caiceA/slack-black-theme/blob/master/ssb-interop.js)
+[ssb-interop.js file in this repo](https://github.com/RPuffer/slack-dark-theme/blob/master/ssb-interop.js)
 
 ## Third
 
@@ -82,4 +75,4 @@ Updating Slack will not cause this theme to reset! 🦁
 
 ---
 
-_PS this is my own customization of [original theme](https://github.com/widget-/slack-black-theme)_
+_PS this is my own customization of another [customization](https://github.com/caiceA/slack-black-theme) of the [original theme](https://github.com/widget-/slack-black-theme)_
