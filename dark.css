@@ -1206,7 +1206,7 @@ a.c-message__sender_link {
 	background: var(--bg);
 }
 
-.c-message_actions__container .c-message__actions {
+.c-message .c-message--light .c-message--hover {
 	background: var(--bg-highlight);
 }
 
