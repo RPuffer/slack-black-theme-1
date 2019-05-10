@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Then get its webviews
   let webviews = document.querySelectorAll(".TeamView webview");
   // Fetch our CSS in parallel ahead of time
-  const cssPath = 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css';
+  const cssPath = 'https://raw.githubusercontent.com/widget-/slack-black-theme/master/custom.css';
   const localCssPath = 'sib.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
@@ -306,8 +306,8 @@ ts-message .mention {
   left: 0;
   width: 44px;
   padding: 0;
-  border: 2px solid #06afcd !important;
-  background: #06afcd !important;
+  border: 2px solid #11d6f0 !important;
+  background: #11d6f0 !important;
   color: white !important;
   line-height: 42px;
   text-shadow: none;
@@ -1150,13 +1150,30 @@ color:#00deff !important
           background: #333;
         }
         .p-prefs_modal__notification_example.p-prefs_modal__notification_example--mac {
-          background: #222;
+          background: var(--bg);
         }
         .c-select_button {
           background: inherit;
         }
         .c-sidebar_menu__list_item.is_active {
           background: #324b52;
+        }
+
+        .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+          color: black !important;
+          border-width: 1px 1px 1px 0;
+          border: black;
+          border-radius: 10px;
+          background: #11d6f0 !important;
+        }
+
+        .p-channel_sidebar__banner--unreads {
+          background: #11d6f0;
+          color: #333;
+        }
+
+        .app_preview_link_slug, .internal_member_link, .internal_user_group_link {
+          background: var(--bg);
         }
 `
 
