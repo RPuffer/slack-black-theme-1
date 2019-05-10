@@ -81,11 +81,11 @@ div.p-message_pane__foreword__description span {
 	z-index: 0;
 }
 .c-scrollbar__hider {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 #team_menu,
 #team_menu_overlay {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
 	box-shadow: none !important;
@@ -111,11 +111,11 @@ div.c-message__content:hover {
 	background: var(--bg-med) !important;
 }
 .c-dialog__header {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white;
 }
 .c-dialog__footer {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 div.c-message:hover {
 	background-color: var(--bg-med) !important;
@@ -242,7 +242,7 @@ ts-message .mention {
 	background: transparent !important;
 }
 .c-input_select {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white !important;
 }
 .c-label--inline .c-label__text {
@@ -265,16 +265,16 @@ ts-message .mention {
 	color: white !important;
 }
 .c-search__input_and_close {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white !important;
 }
 .c-search__input_box {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white !important;
 }
 
 .c-search_autocomplete {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white !important;
 }
 .c-search_autocomplete footer {
@@ -289,7 +289,7 @@ ts-message .mention {
 	color: white !important;
 }
 .c-search_autocomplete header {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white !important;
 }
 .c-search_autocomplete footer .c-search_autocomplete__footer_navigation_help {
@@ -297,20 +297,20 @@ ts-message .mention {
 }
 .c-search__input_box .c-search__input_box__input .ql-editor,
 .c-search__input_box .c-search__input_box__input .ql-placeholder {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	border: none !important;
 }
 .c-search__tabs {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 .c-search__view {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 .c-search_message__body {
 	color: #cacbcc !important;
 }
 .p-search_filter__title_text {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	color: white !important;
 }
 .p-search_filter__title:before {
@@ -445,10 +445,10 @@ p-search_filter__date:first-child {
 	background-color: var(--bg-highlight);
 }
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
-	background: #282828;
+	background: var(--bg-med);
 }
 .p-channel_insights__message--truncate::before {
-	background: linear-gradient(180deg, transparent, #282828 90%);
+	background: linear-gradient(180deg, transparent, var(--bg-med) 90%);
 }
 .c-button--outline {
 	background: #2c2f33;
@@ -657,7 +657,7 @@ a:hover {
 	max-width: 600px;
 }
 .p-file_list__empty {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 code {
 	color: #2eff29 !important;
@@ -775,7 +775,7 @@ a.file_download_link:hover {
 }
 .c-message__reply_bar--focus .c-message__reply_bar_view_thread,
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 .c-deprecated_rounded_button:link,
 .c-deprecated_rounded_button:visited {
@@ -897,7 +897,7 @@ ts-message .internal_member_link:hover {
 	background: transparent;
 }
 .c-message_list__day_divider__label__pill {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 	top: 13px;
 	color: white;
 }
@@ -930,7 +930,7 @@ input[type='search']:focus {
 	box-shadow: none !important;
 }
 .p-app_space_profile__info {
-	background: #282828;
+	background: var(--bg-med);
 }
 .supports_custom_scrollbar:not(.slim_scrollbar) #app_space_scroller_div,
 .supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div,
@@ -1117,7 +1117,7 @@ a.c-message__sender_link {
 .c-search_modal .c-search__input_box,
 .c-search_modal:not(.c-search_modal--primarysearch) .popover > div,
 .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
-	background: #282828 !important;
+	background: var(--bg-med) !important;
 }
 .c-card_carousel__text_section p {
 	color: white;
