@@ -858,6 +858,7 @@ a.file_download_link:hover {
   content: '👀' !important;
   opacity: 1;
   width: 22px;
+  font-size: 15px;
   // background: #fe00e9;
   // width: 10px;
   // height: 10px;
