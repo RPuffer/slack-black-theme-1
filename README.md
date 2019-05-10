@@ -1,9 +1,6 @@
-# Slack Black Theme Night Mood - Mac Only
-## The Black Theme you'll fall in love with 😍
-```
-28 September 2018 Update:
-- Resolved many cosmetic issues, download latest zip file from below
-```
+# Slack Dark Theme
+Semi-inspired by [panda syntax](https://github.com/PandaTheme), hoping to use more of their color scheme in the future.
+
 # Theme Preview
 <img alt="screen-shot preview" src="preview.png">
 
