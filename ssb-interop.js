@@ -859,6 +859,7 @@ a.file_download_link:hover {
   opacity: 1;
   width: 22px;
   font-size: 15px;
+  transform: scale(-1, 1);
   // background: #fe00e9;
   // width: 10px;
   // height: 10px;
