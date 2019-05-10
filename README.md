@@ -5,8 +5,46 @@
 - Resolved many cosmetic issues, download latest zip file from below
 ```
 # Theme Preview
-<img width="1920" alt="screen shot 2018-09-09 at 22 27 00" src="https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png">
+<img alt="screen-shot preview" src="preview.png">
 
+# Customization
+
+If you'd like to replace the eyes with the default unread behavior, just find this section in the `ssb-interop.js` file and replace it with the default version.
+
+```css
+.p-channel_sidebar__channel--unread::before{
+  color: #fe00e9 !important;
+  content: '👀' !important;
+  opacity: 1;
+  width: 22px;
+  // background: #fe00e9;
+  // width: 10px;
+  // height: 10px;
+  // border-radius: 50%
+}
+
+/* Default Behavior (with custom color) */
+.p-channel_sidebar__channel--unread::before{
+  color: #fe00e9 !important;
+  content: '';
+  background: #fe00e9;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%
+}
+```
+
+Another helpful tip for customization is being able to run slack in dev mode so that you can inspect the elements. You can use the following command to run slack in dev mode (Mac):
+
+```sh
+export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app
+```
+
+<hr>
+
+## Notes
+
+Ideally, I would get rid of the use of `!important` but its not a huge priority and I work on this very sporadically.  I also plan to use variables for most of the color selections so that the theme is much more easily customizable.
 
 
 
