@@ -1134,6 +1134,28 @@ color:#00deff !important
                       background-color: #06afcd !important;
                       color: white;
                   }
+        .c-fullscreen_modal__body {
+          background: #333;
+          color: white;
+        }
+        .c-fullscreen_modal__header {
+          background: #444;
+        }
+        .p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+          background: #454545;
+        }
+        .p-prefs_modal__radiogroup .p-prefs_modal__radio_decorator {
+          background: #333;
+        }
+        .p-prefs_modal__notification_example.p-prefs_modal__notification_example--mac {
+          background: #222;
+        }
+        .c-select_button {
+          background: inherit;
+        }
+        .c-sidebar_menu__list_item.is_active {
+          background: #324b52;
+        }
 `
 
 
