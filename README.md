@@ -6,29 +6,21 @@ Semi-inspired by [panda syntax](https://github.com/PandaTheme), hoping to use mo
 
 # Customization
 
-If you'd like to replace the eyes with the default unread behavior, just find this section in the `ssb-interop.js` file and replace it with the default version.
+For any further customizations, you can throw your own css in the `ssb-interop.js` file in the `customCSS` variable provided
+
+
+If you'd like to replace the eyes with the default unread behavior, put the following in the custom css section of your `ssb-interop.js` file.
 
 ```css
-.p-channel_sidebar__channel--unread::before{
-  color: #fe00e9 !important;
-  content: '👀' !important;
-  opacity: 1;
-  width: 22px;
-  // background: #fe00e9;
-  // width: 10px;
-  // height: 10px;
-  // border-radius: 50%
-}
-
 /* Default Behavior (with custom color) */
-.p-channel_sidebar__channel--unread::before{
-  color: #fe00e9 !important;
-  content: '';
-  background: #fe00e9;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%
-}
+  .p-channel_sidebar__channel--unread::before{
+    color: #fe00e9 !important;
+    content: '' !important;
+    background: #fe00e9;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%
+  }
 ```
 
 Another helpful tip for customization is being able to run slack in dev mode so that you can inspect the elements. You can use the following command to run slack in dev mode (Mac):
