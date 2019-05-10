@@ -118,7 +118,7 @@ div.c-message__content:hover {
 	background: #282828 !important;
 }
 div.c-message:hover {
-	background-color: #282828 !important;
+	background-color: var(--bg-med) !important;
 }
 .c-dialog__title {
 	color: white !important;
@@ -1204,6 +1204,10 @@ a.c-message__sender_link {
 .internal_member_link,
 .internal_user_group_link {
 	background: var(--bg);
+}
+
+.c-message_actions__container .c-message__actions {
+	background: var(--bg-highlight);
 }
 
 
