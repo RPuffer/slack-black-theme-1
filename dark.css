@@ -59,6 +59,10 @@ body {
 	background-color: var(--bg-med) !important;
 }
 
+.channel_header {
+    background-color: var(--bg-med) !important;
+}
+
 #footer_msgs {
 	background-color: var(--bg-main) !important;
 }
