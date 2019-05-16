@@ -106,7 +106,6 @@ div.p-message_pane__foreword__description span {
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
 	box-shadow: none !important;
 	border-left: 1px solid #303030;
-	height: 9px;
 }
 #col_messages,
 #client_header {
