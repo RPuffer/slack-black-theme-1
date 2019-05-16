@@ -222,9 +222,10 @@ ts-message .mention {
 	color: white !important;
 }
 #primary_file_button:hover {
-	border: 2px solid #cd04da !important;
-	background: #cd04da !important;
+	border: 2px solid var(--panda-pink) !important;
+	background: var(--panda-pink) !important;
 }
+
 #primary_file_button {
 	position: absolute;
 	bottom: 1.375rem;
