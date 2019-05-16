@@ -18,14 +18,11 @@
 .channel_header {
     background-color: var(--bg-med) !important;
 }
-/*
+
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
-    color: var(--panda-orange) !important;
-    border-width: 1px 1px 1px 0;
     border: black;
     border-radius: 10px;
-    background: inherit !important;
-} */
+}
 
 
 /*  Minified base dark theme */
@@ -1245,12 +1242,22 @@ a.c-message__sender_link {
 	color: var(--panda-pink) !important;
 }
 
+/* selected channel */
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+    background: -webkit-gradient(linear,left top,right top,from(var(--panda-pink)),to(var(--panda-blue))) !important;
+}
+
+/* selected channel hover */
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
 	color: black !important;
     border-width: 1px 1px 1px 0;
     border: black;
     border-radius: 10px;
-    background: var(--panda-blue) !important;
+    background: -webkit-gradient(linear,left top,right top,from(var(--panda-pink)),to(var(--panda-blue))) !important;
+}
+
+.p-channel_sidebar__channel--selected:before, .p-channel_sidebar__channel--selected:hover:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__channel--selected:after, .p-channel_sidebar__channel--selected:hover:after, .p-channel_sidebar__link--selected:after, .p-channel_sidebar__link--selected:after {
+	color: black !important;
 }
 
 .p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before {
@@ -1274,3 +1281,4 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 *********************************************************
 *********************************************************
 *********************************************************/
+
