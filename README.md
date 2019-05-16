@@ -1,5 +1,5 @@
 # Slack Dark Theme
-Semi-inspired by [panda syntax](https://github.com/PandaTheme), hoping to use more of their color scheme in the future.
+inspired by [panda syntax](https://github.com/PandaTheme)
 
 # Theme Preview
 <img alt="screen-shot preview" src="preview.png">
@@ -30,11 +30,6 @@ export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app
 ```
 
 <hr>
-
-## Notes
-
-Ideally, I would get rid of the use of `!important` but its not a huge priority and I work on this very sporadically.  I also plan to use variables for most of the color selections so that the theme is much more easily customizable.
-
 
 
 ## First:
