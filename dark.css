@@ -546,8 +546,15 @@ p-search_filter__date:first-child {
 	color: var(--panda-purple);
 }
 .c-deprecated_button--link {
-	color: var(--panda-purple) !important;
+	color: black !important;
 }
+.c-mrkdwn__user_group--link {
+	background: var(--panda-purple);
+}
+.c-mrkdwn__user_group--link:hover {
+	background: var(--panda-purple);
+}
+
 .p-file_list__file.c-pillow_file_container--full_width:hover {
 	border-bottom: 1px solid var(--bg-light);
 	border-color: var(--bg-light);
@@ -1271,6 +1278,7 @@ a.c-message__sender_link {
 span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span {
 	color: var(--text)
 }
+
 
 /********************************************************
 *********************************************************
