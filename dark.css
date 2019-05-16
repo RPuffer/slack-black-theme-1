@@ -15,6 +15,9 @@
 	--panda-purple: #b080f6;
 }
 
+.channel_header {
+    background-color: var(--bg-med) !important;
+}
 /*
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
     color: var(--panda-orange) !important;
@@ -57,10 +60,6 @@ body {
 
 #client_body::before {
 	background-color: var(--bg-med) !important;
-}
-
-.channel_header {
-    background-color: var(--bg-med) !important;
 }
 
 #footer_msgs {
