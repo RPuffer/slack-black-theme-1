@@ -1,8 +1,7 @@
 
 :root {
 	/* Modify these to change your theme colors: */
-	--primary: #61afef;
-	--text: #e6e6e6;
+	--text: #dadada;
 	--bg: #222;
 	--bg-med: #363636;
 	--bg-light: #424242;
@@ -1253,6 +1252,10 @@ a.c-message__sender_link {
 
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
 	background: var(--panda-red);
+}
+
+span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span {
+	color: var(--text)
 }
 
 /********************************************************
