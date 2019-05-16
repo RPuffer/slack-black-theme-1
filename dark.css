@@ -63,10 +63,6 @@ body {
 	background-color: var(--bg-main) !important;
 }
 
-.channel_header {
-	background-color: var(--bg-main) !important;
-}
-
 div.c-virtual_list__scroll_container {
 	background-color: var(--bg-main) !important;
 }
