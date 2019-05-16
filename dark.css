@@ -8,10 +8,10 @@
 	--bg-light: #424242;
 	--bg-highlight: #545454;
 	--panda-red: #ff2c6d;
-	--panda-blue: #6ec2ff;
+	--panda-blue: #72c3ff;
 	--panda-teal: #35ffdc;
-	--panda-pink: #ff90d0;
-	--panda-orange: #f77e69;
+	--panda-pink: #ff95bf;
+	--panda-orange: #ffb86c;
 	--panda-purple: #b080f6;
 }
 
@@ -78,7 +78,7 @@ div.p-message_pane__foreword__description span {
 .light_theme ts-message .timestamp {
 	line-height: 18px;
 	opacity: 0;
-	color: #92ecff !important;
+	color: var(--panda-blue) !important;
 }
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
 .p-message_pane
@@ -141,8 +141,8 @@ ts-message .app_preview_link_slug,
 ts-message .internal_member_link,
 ts-message .internal_user_group_link,
 ts-message .mention {
-	background: #89ff6e !important;
-	color: #ff1bec !important;
+	background: var(--panda-red) !important;
+	color: var(--panda-pink) !important;
 }
 .btn {
 	background: #06afcd;
@@ -193,7 +193,7 @@ ts-message .mention {
 }
 .c-member_slug--mention,
 .c-member_slug--mention:hover {
-	background: #89ff6e !important;
+	background: var(--panda-red) !important;
 	color: black !important;
 }
 #convo_tab .message_input,
@@ -652,7 +652,7 @@ a:hover {
 }
 .p-channel_sidebar__badge,
 .p-channel_sidebar__banner--mentions {
-	background: #ff1bec !important;
+	background: var(--panda-pink) !important;
 	box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5) !important;
 }
 .c-file_container {
@@ -663,7 +663,7 @@ a:hover {
 	background: var(--bg-med) !important;
 }
 code {
-	color: #2eff29 !important;
+	color: var(--panda-red) !important;
 }
 .searchable_member_list_filter {
 	border-bottom: 1px solid #4b4b4b !important;
@@ -1048,7 +1048,7 @@ input[type='search']:focus {
 	opacity: 1 !important;
 }
 .c-timestamp__label {
-	color: #92ecff !important;
+	color: var(--panda-blue) !important;
 }
 .c-message__sender {
 	color: var(--panda-teal) !important;
@@ -1230,6 +1230,18 @@ a.c-message__sender_link {
 .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
 .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover {
 	color: var(--panda-pink) !important;
+}
+
+.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
+	color: black !important;
+	border-width: 1px 1px 1px 0;
+	border: black;
+	border-radius: 10px;
+	background: var(--panda-blue) !important;
+}
+
+.p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before {
+    color: var(--panda-blue);
 }
 
 /********************************************************
