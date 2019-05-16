@@ -14,13 +14,14 @@
 	--panda-purple: #b080f6;
 }
 
+/*
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
     color: var(--panda-orange) !important;
     border-width: 1px 1px 1px 0;
     border: black;
     border-radius: 10px;
     background: inherit !important;
-}
+} */
 
 
 /*  Minified base dark theme */
