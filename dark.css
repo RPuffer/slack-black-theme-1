@@ -1251,6 +1251,10 @@ a.c-message__sender_link {
     color: var(--panda-blue) !important;
 }
 
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
+	background: var(--panda-red);
+}
+
 /********************************************************
 *********************************************************
 *********************************************************
