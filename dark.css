@@ -193,7 +193,7 @@ ts-message .mention {
 }
 .c-member_slug--mention,
 .c-member_slug--mention:hover {
-	background: var(--panda-red) !important;
+	background: var(--panda-orange) !important;
 	color: black !important;
 }
 #convo_tab .message_input,
@@ -1233,15 +1233,23 @@ a.c-message__sender_link {
 }
 
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
+    color: var(--panda-orange) !important;
+    border-width: 1px 1px 1px 0;
+    border: black;
+    border-radius: 10px;
+    background: inherit !important;
+}
+
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
 	color: black !important;
-	border-width: 1px 1px 1px 0;
-	border: black;
-	border-radius: 10px;
-	background: var(--panda-blue) !important;
+    border-width: 1px 1px 1px 0;
+    border: black;
+    border-radius: 10px;
+    background: var(--panda-blue) !important;
 }
 
 .p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before {
-    color: var(--panda-blue);
+    color: var(--panda-blue) !important;
 }
 
 /********************************************************
