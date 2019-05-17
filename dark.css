@@ -1,5 +1,4 @@
 
-
 .channel_header {
     background-color: var(--bg-med) !important;
 }
@@ -140,7 +139,7 @@ ts-message .mention {
 	color: var(--panda-pink) !important;
 }
 .btn {
-	background: #06afcd;
+	background: var(--panda-blue);
 	color: #fff;
 	line-height: 1.2rem;
 	font-weight: 900;
@@ -202,15 +201,14 @@ ts-message .mention {
 .upload_in_threads.has_focus
 	.inline_message_input_container
 	.inline_file_upload {
-	background: #06afcd !important;
-	border: 2px solid #06afcd !important;
+	background: var(--panda-blue) !important;
+	border: 2px solid var(--panda-blue) !important;
 	color: white !important;
 }
 #primary_file_button:hover {
 	border: 2px solid var(--panda-pink) !important;
 	background: var(--panda-pink) !important;
 }
-
 #primary_file_button {
 	position: absolute;
 	bottom: 1.375rem;
@@ -230,7 +228,7 @@ ts-message .mention {
 	border-radius: 6px 0 0 6px;
 }
 .inline_file_upload {
-	background: #06afcd !important;
+	background: var(--panda-blue) !important;
 	color: white !important;
 }
 .p-share_dialog_message_input {
@@ -458,7 +456,7 @@ p-search_filter__date:first-child {
 	color: white;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-	color: var(--panda-teal) !important;
+	color: var(--panda-blue) !important;
 	font-weight: 700 !important;
 	font-size: 15px !important;
 }
@@ -666,7 +664,7 @@ a:hover {
 	background: var(--bg-med) !important;
 }
 code {
-	color: var(--panda-red) !important;
+	color: var(--panda-teal) !important;
 }
 .searchable_member_list_filter {
 	border-bottom: 1px solid var(--bg-light) !important;
@@ -1007,7 +1005,7 @@ input[type='search']:focus {
 .p-threads_footer__input--legacy .p-message_input_plus {
 	border: 1px solid transparent !important;
 	border-radius: 4px 0 0 4px;
-	background: #06afcd !important;
+	background: var(--panda-blue) !important;
 }
 .ql-editor [aria-label] {
 	color: white !important;
@@ -1051,10 +1049,13 @@ input[type='search']:focus {
 	opacity: 1 !important;
 }
 .c-timestamp__label {
-	color: var(--panda-blue) !important;
+	color: var(--panda-red) !important;
 }
 .c-message__sender {
-	color: var(--panda-teal) !important;
+	color: var(--panda-blue) !important;
+}
+a.c-message__sender_link {
+	color: var(--panda-blue) !important;
 }
 .c-dialog__footer .c-button {
 	background-color: #009bdc;
@@ -1066,9 +1067,7 @@ input[type='search']:focus {
 	background: black !important;
 	color: #ffffff !important;
 }
-a.c-message__sender_link {
-	color: var(--panda-teal) !important;
-}
+
 .ql-editor[aria-label] {
 	color: white !important;
 }
@@ -1149,17 +1148,20 @@ a.c-message__sender_link {
 	color: var(--panda-purple) !important;
 }
 .c-message .c-button--primary {
-	background-color: #06afcd;
+	background-color: var(--panda-blue);
+}
+.c-button--primary {
+	background-color: var(--panda-blue);
 }
 .c-message_kit__file__meta__text {
 	font-size: 12px;
 	color: #949494 !important;
 }
 .msg_input_btn {
-	background-color: #06afcd !important;
+	background-color: var(--panda-blue) !important;
 }
 .p-threads_footer__input--legacy .p-message_input_file_button {
-	background-color: #06afcd !important;
+	background-color: var(--panda-blue) !important;
 	color: white;
 }
 .c-fullscreen_modal__body {
@@ -1258,7 +1260,7 @@ a.c-message__sender_link {
 }
 
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
-	background: var(--panda-red);
+	background: var(--panda-orange);
 }
 
 span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span {
@@ -1269,7 +1271,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	background: var(--bg-highlight);
 	color: var(--text) !important;
 }
-
 
 /********************************************************
 *********************************************************

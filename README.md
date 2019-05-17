@@ -4,22 +4,6 @@ inspired by [panda syntax](https://github.com/PandaTheme)
 # Theme Preview
 <img alt="screen-shot preview" src="preview.png">
 
-# Alternate Color Scheme
-<img alt="screen-shot preview" src="alt-preview.png">
-
-for a slightly modified color scheme (user names, timestamp & code colors modified)
-
-just change this line in your `ssb-interop.js` file
-
-```js
-// FROM
-  const cssPath = 'https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/dark.css';
-
-// TO
-  const cssPath = 'https://raw.githubusercontent.com/RPuffer/slack-dark-theme/alt-color-scheme/dark.css';
-
-```
-
 # Customization
 
 For any further customizations, you can throw your own css in the `ssb-interop.js` file in the `customCSS` variable provided
