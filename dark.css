@@ -1276,6 +1276,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	color: var(--panda-blue);
 }
 
+.presence.active {
+	color: var(--panda-blue);
+}
+
 /********************************************************
 *********************************************************
 *********************************************************
