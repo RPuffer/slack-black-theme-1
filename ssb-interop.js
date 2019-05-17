@@ -109,7 +109,22 @@ document.addEventListener("DOMContentLoaded", function() {
   let cssPromise = fetch(cssPath).then(response => response.text());
 
   let customCSS = `
-  /* add custom css here */
+    :root {
+        /* Modify these to change your theme colors: */
+        --text: #dadada;
+        --bg-main: #222;
+        --bg-sidebar: #2c2c2c;
+        --bg-med: #363636;
+        --bg-light: #424242;
+        --bg-highlight: #545454;
+        --panda-red: #ff2c6d;
+        --panda-blue: #72c3ff;
+        --panda-teal: #35ffdc;
+        --panda-pink: #ff95bf;
+        --panda-orange: #ffb86c;
+        --panda-purple: #b080f6;
+    }
+    /* add custom css here */
   `
 
   // Insert a style tag into the wrapper view
