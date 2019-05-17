@@ -1265,6 +1265,11 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	color: var(--text)
 }
 
+.c-mrkdwn__highlight {
+	background: var(--bg-highlight);
+	color: var(--text) !important;
+}
+
 
 /********************************************************
 *********************************************************
