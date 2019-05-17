@@ -5,6 +5,7 @@ inspired by [panda syntax](https://github.com/PandaTheme)
 <img alt="screen-shot preview" src="preview.png">
 
 # Alternate Color Scheme
+<img alt="screen-shot preview" src="alt-preview.png">
 
 for a slightly modified color scheme (user names, timestamp & code colors modified)
 
