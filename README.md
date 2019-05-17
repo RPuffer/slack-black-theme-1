@@ -12,11 +12,10 @@ For any further customizations, you can throw your own css in the `ssb-interop.j
 If you'd like to replace the eyes with the default unread behavior, put the following in the custom css section of your `ssb-interop.js` file.
 
 ```css
-/* Default Behavior (with custom color) */
   .p-channel_sidebar__channel--unread::before{
-    color: #fe00e9 !important;
+    color: var(--panda-pink) !important;
     content: '' !important;
-    background: #fe00e9;
+    background: var(--panda-pink);
     width: 8px;
     height: 8px;
     border-radius: 50%
