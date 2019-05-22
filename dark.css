@@ -1293,6 +1293,11 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .unread_group:hover .unread_group_header:hover .unread_group_mark:hover, .unread_group:hover .unread_group_header:hover .unread_keyboard:hover {
 	background: var(--panda-pink) !important;
 }
+
+.c-message_attachment__button {
+    color: black;
+	background: var(--panda-teal);
+}
 /********************************************************
 *********************************************************
 *********************************************************
