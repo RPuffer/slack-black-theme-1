@@ -531,6 +531,9 @@ p-search_filter__date:first-child {
 }
 .c-deprecated_button--link {
 	color: black !important;
+	background: var(--panda-teal);
+    border-radius: 5px;
+    padding: 2px;
 }
 .c-mrkdwn__user_group--link {
 	background: var(--panda-purple);
@@ -1266,7 +1269,7 @@ a.c-message__sender_link {
 }
 
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
-	background: var(--panda-orange);
+	background: var(--panda-orange) !important;
 }
 
 span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span {
