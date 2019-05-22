@@ -1301,6 +1301,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     color: black;
 	background: var(--panda-teal);
 }
+
+.c-app_badge, .c-app_label {
+	background: var(--panda-orange) !important;
+}
 /********************************************************
 *********************************************************
 *********************************************************
