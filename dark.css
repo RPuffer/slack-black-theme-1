@@ -785,12 +785,13 @@ a.file_download_link:hover {
 .c-deprecated_rounded_button:visited {
 	color: white !important;
 }
+
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected)
-	.p-channel_sidebar__name,
+.p-channel_sidebar__name,
 .p-channel_sidebar__link--unread .p-channel_sidebar__name,
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
-	.p-channel_sidebar__name {
-	color: var(--panda-pink) !important;
+.p-channel_sidebar__name {
+	color: black !important;
 	padding-left: 6px;
 	height: 20px;
 	overflow: hidden;
@@ -798,6 +799,7 @@ a.file_download_link:hover {
 	font-size: 17px;
 	font-weight: 700;
 }
+
 .p-channel_sidebar__channel--unread::before {
 	color: #fe00e9 !important;
 	content: '👀' !important;
@@ -1234,6 +1236,10 @@ a.c-message__sender_link {
 .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected)
 .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
 .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover {
+	color: var(--panda-pink) !important;
+}
+
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--suggested):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__link--add-channel:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover {
 	color: var(--panda-pink) !important;
 }
 
