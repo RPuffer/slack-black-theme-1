@@ -72,7 +72,7 @@ div.p-message_pane__foreword__description span {
 .light_theme ts-message .timestamp {
 	line-height: 18px;
 	opacity: 0;
-	color: var(--panda-blue) !important;
+	color: var(--panda-red) !important;
 }
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
 .p-message_pane
@@ -135,8 +135,8 @@ ts-message .app_preview_link_slug,
 ts-message .internal_member_link,
 ts-message .internal_user_group_link,
 ts-message .mention {
-	background: var(--panda-red) !important;
-	color: var(--panda-pink) !important;
+	background: var(--panda-orange) !important;
+	color: black !important;
 }
 .btn {
 	background: var(--panda-blue);
@@ -461,7 +461,7 @@ p-search_filter__date:first-child {
 	font-size: 15px !important;
 }
 .light_theme ts-message .message_content .message_sender {
-	color: var(--panda-teal) !important;
+	color: var(--panda-blue) !important;
 	text-transform: capitalize;
 	font-weight: 700 !important;
 }
@@ -1237,6 +1237,19 @@ a.c-message__sender_link {
 	color: var(--panda-pink) !important;
 }
 
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected)
+.p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
+.p-channel_sidebar__name {
+	color: black !important;
+	font-size: 16px;
+	font-weight: 500;
+	height: 0;
+}
+
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--suggested):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__link--add-channel:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover {
+	color: var(--panda-pink) !important
+}
+
 /* selected channel */
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
     background: -webkit-gradient(linear,left top,right top,from(var(--panda-pink)),to(var(--panda-blue))) !important;
@@ -1278,6 +1291,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 
 .presence i.presence_icon {
 	color: var(--panda-blue);
+}
+
+.unread_group .unread_group_header .unread_group_mark, .unread_group .unread_group_header .unread_keyboard {
+	background: var(--panda-red) !important;
 }
 
 /********************************************************
