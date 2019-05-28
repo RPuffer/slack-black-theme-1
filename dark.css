@@ -10,6 +10,7 @@
 
 .p-channel_sidebar__close_container:hover {
 	background: -webkit-gradient(linear,left top,right top,from(var(--panda-blue)),to(var(--panda-teal))) !important;
+	color: black;
 }
 
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover {
@@ -23,6 +24,10 @@
 
 .p-channel_sidebar__name:hover {
 	color: black !important;
+}
+
+.p-channel_sidebar__name {
+	width: 100%;
 }
 
 
