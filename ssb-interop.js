@@ -98,7 +98,19 @@ if (window.location.href !== 'about:blank') {
 }
 
 
+// remove any custom sidebar theme
+window.onload = () => {
+    setTimeout(() => {
+        const nav = document.getElementsByTagName('style');
 
+        for (let i = 0; i < nav.length; i++) {
+            let item = nav[i];
+            if (item.className === 'p-channel_sidebar__theme--custom_theme') {
+                item.innerHTML = '';
+            }
+        }
+    }, 1500)
+};
 
 // Slack Dark Mode
 document.addEventListener("DOMContentLoaded", function() {
