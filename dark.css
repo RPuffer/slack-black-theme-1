@@ -1331,7 +1331,18 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 		END FILE BUTTON STYLES
 *********************************************************/
 
+/* new message in thread - animation */
+.c-message_kit__background--highlight {
+	animation: fader 2s forwards;
+}
+.c-message_kit__background--labels {
+	background: var(--bg-med);
+}
 
+@keyframes fader {
+	from { background: var(--panda-teal) }
+	to { background: var(--bg-med) }
+}
 
 /* hide scrollbar */
 .c-scrollbar__track {
