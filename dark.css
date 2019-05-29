@@ -1224,7 +1224,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	background: -webkit-gradient(linear,left top,right top,from(var(--panda-teal)),to(var(--panda-blue))) !important;
 }
 /* selected channel hover */
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
+.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover {
 	color: black !important;
     border-width: 1px 1px 1px 0;
     border: black;
