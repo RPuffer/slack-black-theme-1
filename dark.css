@@ -1082,6 +1082,7 @@ a.c-message__sender_link {
 }
 .c-message .c-button--primary {
 	background-color: var(--panda-blue);
+	color: white;
 }
 .c-button--primary {
 	background-color: var(--panda-blue);
