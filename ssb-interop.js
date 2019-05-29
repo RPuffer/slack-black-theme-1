@@ -100,6 +100,7 @@ if (window.location.href !== 'about:blank') {
 
 // remove any custom sidebar theme
 window.onload = () => {
+    // this is really hacky, should probably find a better way to do this...
     setTimeout(() => {
         const nav = document.getElementsByTagName('style');
 
