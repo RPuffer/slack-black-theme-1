@@ -200,28 +200,6 @@ ts-message .mention {
 	border: 2px solid var(--panda-blue) !important;
 	color: white !important;
 }
-#primary_file_button:hover {
-	border: 2px solid var(--panda-pink) !important;
-	background: var(--panda-pink) !important;
-}
-#primary_file_button {
-	position: absolute;
-	bottom: 1.375rem;
-	top: 0;
-	left: 0;
-	width: 44px;
-	padding: 0;
-	border: 2px solid var(--panda-blue) !important;
-	background: var(--panda-blue) !important;
-	color: white !important;
-	line-height: 42px;
-	text-shadow: none;
-	text-align: center;
-	-webkit-transition: background 50ms, color 50ms;
-	-moz-transition: background 50ms, color 50ms;
-	transition: background 50ms, color 50ms;
-	border-radius: 6px 0 0 6px;
-}
 .inline_file_upload {
 	background: var(--panda-blue) !important;
 	color: white !important;
@@ -1115,10 +1093,6 @@ a.c-message__sender_link {
 .msg_input_btn {
 	background-color: var(--panda-blue) !important;
 }
-.p-threads_footer__input--legacy .p-message_input_file_button {
-	background-color: var(--panda-blue) !important;
-	color: white;
-}
 .c-fullscreen_modal__body {
 	background: var(--bg-med);
 	color: white;
@@ -1200,17 +1174,11 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	background: var(--panda-orange) !important;
 }
 
+
+
 /********************************************************
-*********************************************************
-*********************************************************
-
 		SIDEBAR STYLES
-
-*********************************************************
-*********************************************************
 *********************************************************/
-
-
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
     border-radius: 10px;
 }
@@ -1316,6 +1284,57 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 
 .p-channel_sidebar__close {
 	color: black;
+}
+/********************************************************
+		END SIDEBAR STYLES
+*********************************************************/
+
+
+
+/********************************************************
+		FILE BUTTON STYLES
+*********************************************************/
+.p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
+	color: white;
+}
+.p-threads_footer__input--legacy .p-message_input_file_button:hover {
+	background: var(--panda-pink) !important;
+}
+.p-threads_footer__input--legacy .p-message_input_file_button {
+	background-color: var(--panda-blue) !important;
+	color: white;
+}
+#primary_file_button:hover {
+	border: 2px solid var(--panda-pink) !important;
+	background: var(--panda-pink) !important;
+}
+#primary_file_button {
+	position: absolute;
+	bottom: 1.375rem;
+	top: 0;
+	left: 0;
+	width: 44px;
+	padding: 0;
+	border: 2px solid var(--panda-blue) !important;
+	background: var(--panda-blue) !important;
+	color: white !important;
+	line-height: 42px;
+	text-shadow: none;
+	text-align: center;
+	-webkit-transition: background 50ms, color 50ms;
+	-moz-transition: background 50ms, color 50ms;
+	transition: background 50ms, color 50ms;
+	border-radius: 6px 0 0 6px;
+}
+/********************************************************
+		END FILE BUTTON STYLES
+*********************************************************/
+
+
+
+/* hide scrollbar */
+.c-scrollbar__track {
+	display: none;
 }
 /********************************************************
 *********************************************************
