@@ -1344,6 +1344,12 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	to { background: var(--bg-med) }
 }
 
+/* stray sent-to-channel icon */
+.c-message_kit__labels--broadcast .c-message_kit__labels__icon {
+	color: var(--panda-teal);
+}
+
+
 /* hide scrollbar */
 .c-scrollbar__track {
 	display: none;
