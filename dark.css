@@ -52,7 +52,35 @@
 } */
 
 /* selected channel */
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+/* .p-channel_sidebar__channel--selected,
+.p-channel_sidebar__link--selected,
+.p-channel_sidebar__channel--selected:link,
+.p-channel_sidebar__link--selected:link,
+.p-channel_sidebar__channel--selected:visited,
+.p-channel_sidebar__link--selected:visited,
+.p-channel_sidebar__channel--selected:hover,
+.p-channel_sidebar__link--selected:hover,
+.p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+	color: black !important;
+	border-width: 1px 1px 1px 0;
+	border: black;
+	border-radius: 10px;
+    background: -webkit-gradient(linear,left top,right top,from(var(--panda-pink)),to(var(--panda-blue))) !important;
+} */
+
+.p-channel_sidebar__channel--selected,
+.p-channel_sidebar__link--selected,
+.p-channel_sidebar__channel--selected:link,
+.p-channel_sidebar__link--selected:link,
+.p-channel_sidebar__channel--selected:visited,
+.p-channel_sidebar__link--selected:visited,
+.p-channel_sidebar__channel--selected:hover,
+.p-channel_sidebar__link--selected:hover,
+.p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+	color: black !important;
+	border-width: 1px 1px 1px 0;
+	border: black;
+	border-radius: 10px;
     background: -webkit-gradient(linear,left top,right top,from(var(--panda-pink)),to(var(--panda-blue))) !important;
 }
 
@@ -68,21 +96,6 @@
 	background: #324b52;
 }
 
-.p-channel_sidebar__channel--selected,
-.p-channel_sidebar__link--selected,
-.p-channel_sidebar__channel--selected:link,
-.p-channel_sidebar__link--selected:link,
-.p-channel_sidebar__channel--selected:visited,
-.p-channel_sidebar__link--selected:visited,
-.p-channel_sidebar__channel--selected:hover,
-.p-channel_sidebar__link--selected:hover,
-.p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
-	color: black !important;
-	border-width: 1px 1px 1px 0;
-	border: black;
-	border-radius: 10px;
-	background: var(--panda-blue) !important;
-}
 
 .p-channel_sidebar__banner--unreads {
 	background: var(--panda-blue);
