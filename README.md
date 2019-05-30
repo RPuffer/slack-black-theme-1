@@ -134,5 +134,3 @@ To remove the dark mode theme, simply delete everything after `line 99` in the `
 ---
 
 _PS this is my own customization of another [customization](https://github.com/caiceA/slack-black-theme) of the [original theme](https://github.com/widget-/slack-black-theme)_
-
-TCLCCLE
