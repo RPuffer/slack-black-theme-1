@@ -113,6 +113,11 @@ just run this command to automatically replace the interop file with the one fro
 ```bash
 sudo rm -f /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js && sudo curl -o /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.js
 ```
+OR
+
+you can just replace the `ssb-interop.js` file manually - the file should be located at:
+
+`/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/`
 
 ## Then
 
