@@ -100,7 +100,7 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
 }
 ```
 
-## First:
+# INSTALL:
 
 **Download and INSTALL this font family**
 https://www.fontsquirrel.com/fonts/lato
