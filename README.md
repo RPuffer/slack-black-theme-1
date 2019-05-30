@@ -106,7 +106,7 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
 https://www.fontsquirrel.com/fonts/lato
 
 
-### Quick Install
+### Quick Install (MAC)
 
 just run this command to automatically replace the interop file with the one from this repo
 
@@ -115,9 +115,13 @@ sudo rm -f /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/stat
 ```
 OR
 
-you can just replace the `ssb-interop.js` file manually - the file should be located at:
+you can replace the `ssb-interop.js` file manually - the file should be located at:
 
-`/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/`
+- Windows: `%homepath%\AppData\Local\slack\resources\app.asar.unpacked\src\static\`
+- Mac: `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/`
+- Linux: `/usr/lib/slack/resources/app.asar.unpacked/src/static/`
+
+Windows / Linux paths may be slightly different? The Mac path should be accurate though.
 
 ## Then
 
