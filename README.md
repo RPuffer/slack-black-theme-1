@@ -88,6 +88,16 @@ https://www.fontsquirrel.com/fonts/lato
 
 ## Second:
 
+### Quick Install
+
+just run this command to automatically replace the interop file with the one from this repo
+
+```bash
+sudo rm -f /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js && sudo curl -o /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.js
+```
+
+OR
+
 Replace your CURRENT **ssb-interop.js** File
 Located at `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/`
 
