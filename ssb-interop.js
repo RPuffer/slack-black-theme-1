@@ -97,6 +97,9 @@ if (window.location.href !== 'about:blank') {
   init(resourcePath, mainModule, !isDevMode);
 }
 
+/**
+ *  REMOVE EVERYTHING BELOW TO REVERT TO NORMAL SLACK
+ */
 
 // remove any custom sidebar theme
 window.onload = () => {
