@@ -1261,7 +1261,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 
 .p-channel_sidebar__channel--unread::before {
-	color: #fe00e9 !important;
+	color: var(--panda-pink) !important;
 	content: '👀' !important;
 	opacity: 1;
 	width: 22px;

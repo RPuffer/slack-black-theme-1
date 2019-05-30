@@ -30,6 +30,55 @@ export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app
 
 <hr>
 
+# BLOW IT UP
+If you want to get really crazy with the hover effects in the sidebar, try throwing this in the custom css section of your `ssb-interop.js` file:
+
+<img alt="screen-shot preview xplode" src="xplode-preview.gif">
+
+
+```css
+    .p-channel_sidebar__channel:hover::before {
+        animation: explode 0.5s cubic-bezier(.87,.25,1,.66) forwards;
+        opacity: 1 !important;
+        width: 22px;
+        font-size: 15px;
+    }
+
+    .p-channel_sidebar__channel:hover span, .p-channel_sidebar__link:hover span {
+        color: black !important;
+        animation: shake 0.5s linear infinite;
+        animation-delay: 0.425s;
+    }
+
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    @keyframes explode {
+        0% {
+            transform: scale(-0.5, 0.5) translate(6px, 1.5px);
+            content: '💣';
+        }
+        85% {
+            transform: scale(-1.775, 1.775) translate(6px, 1.5px);
+            content: '💥';
+        }
+        100% {
+            transform: scale(-2, 2) translate(6px, 1.5px);
+            content: '💥';
+        }
+    }
+```
 
 ## First:
 
