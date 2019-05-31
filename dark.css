@@ -344,9 +344,6 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 	background: var(--bg-highlight) !important;
 	border: 0px !important;
 }
-.p-flexpane_header {
-	background: #1f2021 !important;
-}
 .p-file_list__filters {
 	background: #1f2021 !important;
 }
