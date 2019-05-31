@@ -57,6 +57,11 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
 
 
 ```css
+.p-channel_sidebar__channel:hover i ,
+.p-channel_sidebar__link:hover i {
+    display: none;
+}
+
 .p-channel_sidebar__channel:hover::before {
     animation: explode 0.5s cubic-bezier(.87,.25,1,.66) forwards;
     opacity: 1 !important;
@@ -68,6 +73,7 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
     color: black !important;
     animation: shake 0.5s linear infinite;
     animation-delay: 0.425s;
+    margin-left: 0px;
 }
 
 @keyframes shake {
