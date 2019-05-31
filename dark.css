@@ -420,6 +420,9 @@ p-search_filter__date:first-child {
 	background: var(--bg-med);
 	height: 7px;
 }
+#team_menu, #team_menu_overlay {
+	border-color: var(--bg-med);
+}
 .p-channel_insights__message--truncate::before {
 	background: linear-gradient(180deg, transparent, var(--bg-med) 90%);
 }
