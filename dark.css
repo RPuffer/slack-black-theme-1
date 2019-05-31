@@ -524,6 +524,9 @@ input.c-input_select__filter_input {
 	color: white !important;
 	background: transparent !important;
 }
+.p-threads_flexpane__separator_count {
+	color: var(--text);
+}
 #search_container .search_input {
 	color: white;
 	background: transparent !important;
