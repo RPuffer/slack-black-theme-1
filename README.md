@@ -86,15 +86,15 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
 
 @keyframes explode {
     0% {
-        transform: scale(-0.5, 0.5) translate(6px, 1.5px);
+        transform: scale(-0.5, 0.5) translate(4px, 1.5px);
         content: '💣';
     }
     85% {
-        transform: scale(-1.775, 1.775) translate(6px, 1.5px);
+        transform: scale(-1.775, 1.775) translate(4px, 1.5px);
         content: '💥';
     }
     100% {
-        transform: scale(-2, 2) translate(6px, 1.5px);
+        transform: scale(-2, 2) translate(4px, 1.5px);
         content: '💥';
     }
 }

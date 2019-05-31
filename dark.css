@@ -1207,8 +1207,12 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 /* sidebar text color on hover */
 .p-channel_sidebar__channel:hover span, .p-channel_sidebar__link:hover span {
 	color: var(--dark-text) !important;
+	padding-left: 4px;
 }
 .p-channel_sidebar__close_container:hover span {
+	color: var(--dark-text) !important;
+}
+.p-channel_sidebar__channel:hover::before {
 	color: var(--dark-text) !important;
 }
 
@@ -1262,7 +1266,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .p-channel_sidebar__link--unread .p-channel_sidebar__name,
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
 .p-channel_sidebar__name {
-	padding-left: 6px;
+	padding-left: 4px;
 	height: 20px;
 	overflow: hidden;
 	line-height: 16px;
