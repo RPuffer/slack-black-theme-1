@@ -131,7 +131,7 @@ ts-message .internal_member_link,
 ts-message .internal_user_group_link,
 ts-message .mention {
 	background: var(--panda-orange) !important;
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 .btn {
 	background: var(--panda-blue);
@@ -183,7 +183,7 @@ ts-message .mention {
 .c-member_slug--mention,
 .c-member_slug--mention:hover {
 	background: var(--panda-orange) !important;
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 #convo_tab .message_input,
 #convo_tab textarea#msg_text {
@@ -295,7 +295,7 @@ ts-message .mention {
 	color: white !important;
 }
 .c-calendar_month {
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 .c-pillow_file__content--collapsed:after {
 	background: linear-gradient(
@@ -324,7 +324,7 @@ ts-message .mention {
 .c-mrkdwn__mention:hover,
 .c-mrkdwn__user_group--mention,
 .c-mrkdwn__user_group--mention:hover {
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 
 .c-mrkdwn__user_group--link {
@@ -390,7 +390,7 @@ p-search_filter__date:first-child {
 }
 .p-channel_insights__message
 	ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
-	background-color: black !important;
+	background-color: var(--dark-text) !important;
 	border: 1px solid var(--bg-highlight) !important;
 }
 .p-channel_insights__date_heading span {
@@ -482,7 +482,7 @@ p-search_filter__date:first-child {
 	color: var(--panda-purple);
 }
 .c-deprecated_button--link {
-	color: black !important;
+	color: var(--dark-text) !important;
 	background: var(--panda-teal);
     border-radius: 5px;
     padding: 2px;
@@ -1058,7 +1058,7 @@ a.c-message__sender_link {
 	color: white;
 }
 .c-card_carousel__page_count {
-	color: black;
+	color: var(--dark-text);
 }
 .c-file__slide--meta {
 	background-color: var(--bg-med) !important;
@@ -1164,7 +1164,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 
 .c-message_attachment__button {
-    color: black;
+    color: var(--dark-text);
 	background: var(--panda-teal);
 }
 
@@ -1190,7 +1190,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 /* selected channel hover */
 .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover {
-	color: black !important;
+	color: var(--dark-text) !important;
     border-width: 1px 1px 1px 0;
     border: black;
     border-radius: 10px;
@@ -1206,10 +1206,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 
 /* sidebar text color on hover */
 .p-channel_sidebar__channel:hover span, .p-channel_sidebar__link:hover span {
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 .p-channel_sidebar__close_container:hover span {
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 
 .p-channel_sidebar__channel--selected,
@@ -1219,7 +1219,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .p-channel_sidebar__channel--selected:visited,
 .p-channel_sidebar__link--selected:visited,
 .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
-	color: black !important;
+	color: var(--dark-text) !important;
 	border-width: 1px 1px 1px 0;
 	border: black;
 	border-radius: 10px;
@@ -1227,7 +1227,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 
 .p-channel_sidebar__channel--selected:before, .p-channel_sidebar__channel--selected:hover:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__channel--selected:after, .p-channel_sidebar__channel--selected:hover:after, .p-channel_sidebar__link--selected:after, .p-channel_sidebar__link--selected:after {
-	color: black !important;
+	color: var(--dark-text) !important;
 }
 
 /* active icon color ? */
@@ -1243,6 +1243,14 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	padding-top: 0 !important;
 }
 
+
+/* Unread & Thread Before pseudos */
+.p-channel_sidebar__link--all-threads:hover::before {
+	color: var(--dark-text);
+}
+.p-channel_sidebar__link--all-unreads:hover::before {
+	color: var(--dark-text);
+}
 
 .p-channel_sidebar__banner--unreads {
 	background: var(--panda-blue);
@@ -1286,7 +1294,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 
 .p-channel_sidebar__close {
-	color: black;
+	color: var(--dark-text);
 }
 /********************************************************
 		END SIDEBAR STYLES

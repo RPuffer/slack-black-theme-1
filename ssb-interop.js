@@ -128,6 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
     :root {
         /* Modify these to change your theme colors: */
         --text: #dadada;
+        --dark-text: #000;
         --bg-main: #222;
         --bg-sidebar: #2c2c2c;
         --bg-med: #363636;
