@@ -1212,8 +1212,8 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 
 /* sidebar text color on hover */
-.p-channel_sidebar__channel:hover span:not(.c-mention_badge),
-.p-channel_sidebar__link:hover span:not(.c-mention_badge) {
+.p-channel_sidebar__channel:hover span:not(.c-mention_badge):not(.c-custom_status) ,
+.p-channel_sidebar__link:hover span:not(.c-mention_badge):not(.c-custom_status) {
 	color: var(--dark-text) !important;
 	padding-left: 4px;
 }
