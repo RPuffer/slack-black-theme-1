@@ -1201,7 +1201,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--suggested):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__link--add-channel:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__section_heading_label--unreads, .p-channel_sidebar__quickswitcher:hover {
 	color: var(--panda-pink);
 	height: 100% !important;
-	padding-top: 1.5%;
+	padding-top: 1%;
 }
 
 /* sidebar text color on hover */
@@ -1266,7 +1266,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .p-channel_sidebar__link--unread .p-channel_sidebar__name,
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim)
 .p-channel_sidebar__name {
-	padding-left: 4px;
 	height: 20px;
 	overflow: hidden;
 	line-height: 16px;
@@ -1280,7 +1279,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	opacity: 1;
 	width: 22px;
 	font-size: 15px;
-	transform: scale(-1, 1);
+	transform: scale(-1, 1) translate(4px, 0px);
 }
 
 .p-channel_sidebar__badge,
