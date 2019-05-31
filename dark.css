@@ -1176,6 +1176,9 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	background: var(--panda-orange) !important;
 }
 
+.c-mention_badge {
+	padding: 0 9px !important;
+}
 
 
 /********************************************************
@@ -1209,7 +1212,8 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 }
 
 /* sidebar text color on hover */
-.p-channel_sidebar__channel:hover span, .p-channel_sidebar__link:hover span {
+.p-channel_sidebar__channel:hover span:not(.c-mention_badge),
+.p-channel_sidebar__link:hover span:not(.c-mention_badge) {
 	color: var(--dark-text) !important;
 	padding-left: 4px;
 }
