@@ -1238,6 +1238,11 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	background: #324b52;
 }
 
+/* All Unreads */
+.p-channel_sidebar__link--unread .p-channel_sidebar__name {
+	padding-top: 0 !important;
+}
+
 
 .p-channel_sidebar__banner--unreads {
 	background: var(--panda-blue);
