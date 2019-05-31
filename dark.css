@@ -91,9 +91,6 @@ div.p-message_pane__foreword__description span {
 #team_menu_overlay {
 	border-color: transparent !important;
 }
-div.c-message__content:hover {
-	background-color: var(--bg-med) !important;
-}
 .c-team__display-name,
 .c-unified_member__display-name,
 .c-usergroup__handle {
