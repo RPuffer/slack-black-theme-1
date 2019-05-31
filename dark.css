@@ -78,10 +78,18 @@ div.p-message_pane__foreword__description span {
 #team_menu,
 #team_menu_overlay {
 	background: var(--bg-med) !important;
+	border-color: var(--bg-med) !important;
+}
+#col_messages, #client_header {
+	border-left: 1px solid var(--bg-main);
 }
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
 	box-shadow: none !important;
-	border-left: 1px solid #303030;
+	border-left: 1px solid var(--bg-main);
+	margin-left: 1px;
+}
+.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
+	border-bottom: none;
 }
 #col_messages,
 #client_header {
@@ -410,6 +418,7 @@ p-search_filter__date:first-child {
 }
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
 	background: var(--bg-med);
+	height: 7px;
 }
 .p-channel_insights__message--truncate::before {
 	background: linear-gradient(180deg, transparent, var(--bg-med) 90%);
