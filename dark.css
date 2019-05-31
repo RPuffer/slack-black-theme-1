@@ -1223,6 +1223,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .p-channel_sidebar__channel:hover::before {
 	color: var(--dark-text) !important;
 }
+.p-channel_sidebar__channel:hover::after {
+	color: var(--dark-text);
+}
+
 
 .p-channel_sidebar__channel--selected,
 .p-channel_sidebar__link--selected,
