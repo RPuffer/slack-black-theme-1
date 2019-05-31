@@ -131,6 +131,30 @@ Restart Slack & ENJOY !!! 🙌🏻
 
 To remove the dark mode theme, simply delete everything after `line 99` in the `ssb-interop.js` file
 
+
+# NOTES
+
+I've been customizing the theme at 90% Zoom, but it should still work fine for most other preferences.
+
+## Troubleshooting
+
+If your sidebar text colors look off, it may be due to a custom sidebar theme that is overwriting the styles. If this happens consistently you can try to adjust the timeout in this section of the `ssb-interop.js` file:
+
+```js
+// remove any custom sidebar theme
+window.onload = () => {
+    setTimeout(() => {
+        const nav = document.getElementsByTagName('style');
+
+        for (let i = 0; i < nav.length; i++) {
+            let item = nav[i];
+            if (item.className === 'p-channel_sidebar__theme--custom_theme') {
+                item.innerHTML = '';
+            }
+        }
+    }, 1500) // Make this a bigger timeout if needed
+};
+```
 ---
 
 _PS this is my own customization of another [customization](https://github.com/caiceA/slack-black-theme) of the [original theme](https://github.com/widget-/slack-black-theme)_

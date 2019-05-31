@@ -630,7 +630,7 @@ code {
 	color: white !important;
 }
 .c-link--button {
-	color: var(--panda-purple) !important;
+	color: var(--panda-blue) !important;
 }
 .p-file_upload_dialog__section input.c-input_text:focus {
 	background: transparent !important;
@@ -1366,6 +1366,11 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 /* hide scrollbar */
 .c-scrollbar__track {
 	display: none;
+}
+
+/* preferences close button */
+.c-fullscreen_modal__close {
+	color: var(--panda-pink);
 }
 /********************************************************
 *********************************************************
