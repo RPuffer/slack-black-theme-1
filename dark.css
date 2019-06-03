@@ -1393,6 +1393,14 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .c-fullscreen_modal__close {
 	color: var(--panda-pink);
 }
+
+/* new reply in threads view */
+.p_threads_view_load_newer_button {
+	background: var(--bg-highlight);
+}
+.p_threads_view_load_newer_button__blue_dot {
+	color: var(--panda-blue);
+}
 /********************************************************
 *********************************************************
 *********************************************************
