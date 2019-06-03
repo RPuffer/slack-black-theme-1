@@ -1406,6 +1406,32 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 #stars_toggle:hover {
 	color: var(--panda-orange);
 }
+
+/* more items menu colors */
+.flex_menu #files_user .ts_icon:before {
+	color: var(--panda-blue);
+}
+.flex_menu #files_all .ts_icon:before {
+	color: var(--panda-teal);
+}
+.flex_menu #list_team .ts_icon:before {
+	color: var(--panda-red);
+}
+.flex_menu #list_groups .ts_icon:before {
+	color: var(--panda-purple);
+}
+.flex_menu #help .ts_icon:before {
+	color: var(--panda-pink);
+}
+.flex_menu #whats_new .ts_icon:before {
+	color: var(--panda-orange);
+}
+.flex_menu #downloads .ts_icon:before {
+	color: var(--panda-blue);
+}
+.flex_menu #list_shortcuts .ts_icon:before {
+	color: var(--panda-teal);
+}
 /********************************************************
 *********************************************************
 *********************************************************
