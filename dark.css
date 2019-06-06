@@ -1433,14 +1433,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	color: var(--panda-teal);
 }
 
-/* when typing remove custom pseudo element content */
-.p-channel_sidebar__channel--typing::before {
-	content: '' !important;
-}
-.p-channel_sidebar__channel--typing:hover::before {
-	content: '' !important;
-}
-
 /* new channel footer */
 #footer_archives_preview {
 	background-color: var(--bg-med);

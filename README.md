@@ -62,7 +62,7 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
     display: none;
 }
 
-.p-channel_sidebar__channel:hover::before {
+.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--typing):hover::before {
     animation: explode 0.5s cubic-bezier(.87,.25,1,.66) forwards;
     opacity: 1 !important;
     width: 22px;
