@@ -109,7 +109,7 @@ window.onload = () => {
 
         for (let i = 0; i < nav.length; i++) {
             let item = nav[i];
-            if (item.className === 'p-channel_sidebar__theme--custom_theme') {
+            if (item.className.includes('p-channel_sidebar__theme')) {
                 item.innerHTML = '';
             }
         }
