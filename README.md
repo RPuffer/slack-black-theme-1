@@ -161,7 +161,9 @@ window.onload = () => {
 
         for (let i = 0; i < nav.length; i++) {
             let item = nav[i];
-            if (item.className === 'p-channel_sidebar__theme--custom_theme') {
+            // if (item.className === 'p-channel_sidebar__theme--custom_theme') { <-- CHANGE THIS LINE IF YOU STILL HAVE IT
+            if (item.className.includes('p-channel_sidebar__theme')) { // this works for all themes, not just custom theme
+
                 item.innerHTML = '';
             }
         }
