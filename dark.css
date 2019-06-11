@@ -1452,6 +1452,11 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	background: var(--bg-highlight) !important;
 	color: #ffffff !important;
 }
+
+/* thread message - editing */
+.c-message_kit__background--editing {
+	background: var(--bg-med);
+}
 /********************************************************
 *********************************************************
 *********************************************************
