@@ -32,7 +32,7 @@ Or, if you'd like to tweak the color scheme, the majority of colors have been ma
 If you'd like to replace the 👀 with the default unread behavior, put the following in the custom css section of your `ssb-interop.js` file.
 
 ```css
-.p-channel_sidebar__channel--unread::before{
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--typing)::before{
     color: var(--panda-pink) !important;
     content: '' !important;
     background: var(--panda-pink);

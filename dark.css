@@ -1294,7 +1294,7 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 	font-weight: 700;
 }
 
-.p-channel_sidebar__channel--unread::before {
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--typing)::before {
 	color: var(--panda-pink) !important;
 	content: '👀';
 	opacity: 1;
