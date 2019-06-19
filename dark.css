@@ -1462,6 +1462,18 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .c-message_attachment__author_name {
 	color: var(--panda-teal);
 }
+
+/* app dialogue */
+textarea.c-input_textarea.c-input_textarea--with_hint {
+	padding-right: 0 !important;
+    color: var(--text);
+}
+.p-app_dialog__title_text {
+	color: var(--text);
+}
+.c-dialog__footer .c-button {
+	background-color: var(--panda-blue);
+}
 /********************************************************
 *********************************************************
 *********************************************************
