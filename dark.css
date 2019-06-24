@@ -1474,6 +1474,11 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .c-dialog__footer .c-button {
 	background-color: var(--panda-blue);
 }
+
+/* active status in sidebar header */
+#team_menu #presence.active:before {
+	color: var(--panda-blue) !important;
+}
 /********************************************************
 *********************************************************
 *********************************************************
