@@ -498,6 +498,7 @@ p-search_filter__date:first-child {
 }
 .c-mrkdwn__user_group--link {
 	background: var(--panda-purple);
+	color: black !important;
 }
 .c-mrkdwn__user_group--link:hover {
 	background: var(--panda-purple);
