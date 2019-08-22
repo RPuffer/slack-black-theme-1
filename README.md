@@ -1,3 +1,6 @@
+# RIP Dark Theme
+This no longer works on the most recent version of slack - currently looking for a way to implement it, will update if I can get it fixed
+
 # Slack Dark Theme
 inspired by [panda syntax](https://github.com/PandaTheme)
 
@@ -116,7 +119,7 @@ https://www.fontsquirrel.com/fonts/lato
 Run this command to automatically replace the interop file with the one from this repo (this also allows for simple uninstall)
 
 ```bash
-sudo mv -n /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js{,.bak} && sudo curl -o /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/ssb-interop.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.js
+sudo mv -n /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js{,.bak} && sudo curl -o /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.js
 ```
 OR
 
@@ -137,7 +140,7 @@ Restart Slack & ENJOY !!! 🙌🏻
 Run this command to revert back to your original interop file (IF you used the install command above):
 
 ```bash
-sudo cp /Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/static/ssb-interop.js{.bak,}
+sudo cp /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js{.bak,}
 ```
 
 OR in case the commands aren't working for some reason:
