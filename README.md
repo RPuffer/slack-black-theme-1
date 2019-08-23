@@ -1,3 +1,6 @@
+# RIP Dark Theme
+This no longer works on the most recent version of slack - currently looking for a way to implement it, will update if I can get it fixed
+
 # Slack Dark Theme
 inspired by [panda syntax](https://github.com/PandaTheme)
 
