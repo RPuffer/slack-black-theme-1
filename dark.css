@@ -1548,6 +1548,15 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .p-workspace__secondary_view {
 	border-left: 1px solid var(--bg-highlight);
 }
+
+/* profile cards */
+.p-member_profile_card {
+	background: var(--bg-light);
+}
+.p-member_profile_field__label {
+	color: var(--text);
+	opacity: 0.5;
+}
 /********************************************************
 *********************************************************
 *********************************************************
