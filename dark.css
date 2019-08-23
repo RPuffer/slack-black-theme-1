@@ -1480,6 +1480,74 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 #team_menu #presence.active:before {
 	color: var(--panda-blue) !important;
 }
+
+
+
+/* NEW SLACK UPDATES */
+
+/* nav bar */
+.p-classic_nav {
+    background: var(--bg-med);
+	color: var(--text);
+}
+.p-classic_nav__model__title__info {
+	color: var(--text) !important;
+}
+.p-classic_nav__no_drag {
+	color: var(--text);
+}
+.p-classic_nav__model__button {
+	color: var(--text);
+}
+
+
+/* search bar */
+.p-classic_nav__right__search {
+	border: 1px solid var(--bg-highlight);
+	border-radius: 5px;
+}
+.p-classic_nav__right__search__icon {
+	color: var(--text);
+}
+.p-classic_nav__right__search__placeholder {
+	color: var(--text);
+}
+
+/* search bar hover */
+.p-classic_nav__right__search:hover {
+	border-color: var(--panda-blue);
+	opacity: 0.5;
+}
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon {
+	color: var(--panda-pink);
+}
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder {
+	color: var(--panda-pink);
+}
+
+/* message input */
+.p-workspace__input .p-message_input_field {
+	background: var(--bg-light)
+}
+.p-workspace__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
+	color: var(--panda-teal);
+}
+.p-workspace__input .p-message_input_file_button.p-message_input_file_button--active, .p-workspace__input .p-message_input_file_button:hover {
+	background: var(--panda-purple);
+}
+
+/* sidebar bg */
+.c-scrollbar__child {
+	background: var(--bg-sidebar);
+}
+
+/* threads bg */
+.c-scrollbar__hider {
+	background: var(--bg-main);
+}
+.p-workspace__secondary_view {
+	border-left: 1px solid var(--bg-highlight);
+}
 /********************************************************
 *********************************************************
 *********************************************************
