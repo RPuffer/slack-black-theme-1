@@ -115,11 +115,70 @@ If you want to get really crazy with the hover effects in the sidebar, try throw
 https://www.fontsquirrel.com/fonts/lato
 
 
+## For New Versions of Slack
+Not sure what version this changed at, but if your install contains the file:
+`/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
+then you can use the old install method
+
+
+Instructions below are specific to MacOS, for other OS you will need to adjust the slack directory and commands accordingly
+
+
+**INSTALL the NPM package `ASAR`**
+```bash
+npm i -g asar
+```
+
+Then, run the following commands:
+```bash
+export SLACK_HOME=/Applications/Slack.app/Contents/Resources
+
+# Make dir to unpack source code
+sudo mkdir $SLACK_HOME/src
+
+# extract source code to new dir
+sudo asar extract $SLACK_HOME/app.asar $SLACK_HOME/src
+
+# save the original app.asar file in case of issues
+sudo mv -n $SLACK_HOME/app.asar{,.bak}
+
+# If you want to be safe, and in case I don't update this with new versions:
+# you can just manually paste the code from `inject.js` in this repo at the end of the $SLACK_HOME/src/dist/ssb-interop.bundle.js file
+# Then you can skip the next command
+
+# replace the interop file in the source code with the new on from this repo
+sudo curl -o $SLACK_HOME/src/dist/ssb-interop.bundle.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-intero.bundle.js
+
+# re-package the source code into a new app.asar file
+sudo asar pack $SLACK_HOME/src $SLACK_HOME/app.asar
+```
+
+OR, copy and paste this block to execute all commands
+```bash
+export SLACK_HOME=/Applications/Slack.app/Contents/Resources \
+    && sudo mkdir $SLACK_HOME/src \
+    && sudo asar extract $SLACK_HOME/app.asar $SLACK_HOME/src \
+    && sudo mv -n $SLACK_HOME/app.asar{,.bak} \
+    && sudo curl -o $SLACK_HOME/src/dist/ssb-interop.bundle.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.bundle.js \
+    && sudo asar pack $SLACK_HOME/src $SLACK_HOME/app.asar
+```
+
+**Uninstall**
+To remove, simply use this command (assuming you used the above commands to install)
+
+```bash
+sudo cp /Applications/Slack.app/Contents/Resources/app.asar{.bak,} && sudo rm -rf /Applications/Slack.app/Contents/Resources/src
+```
+
+
+## For Older Versions of Slack
+
 ### Quick Install (MAC)
 Run this command to automatically replace the interop file with the one from this repo (this also allows for simple uninstall)
 
 ```bash
-sudo mv -n /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js{,.bak} && sudo curl -o /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.js
+sudo mv -n /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js{,.bak} && \
+sudo curl -o /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js https://raw.githubusercontent.com/RPuffer/slack-dark-theme/master/ssb-interop.js
 ```
 OR
 

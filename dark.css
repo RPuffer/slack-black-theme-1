@@ -1557,6 +1557,12 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 	color: var(--text);
 	opacity: 0.5;
 }
+
+/* username in preview modal */
+.p-file_viewer__header__edit_btn, .p-file_viewer__header__meta__name {
+    color: var(--text);
+    opacity: 0.5;
+}
 /********************************************************
 *********************************************************
 *********************************************************
