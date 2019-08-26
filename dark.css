@@ -1535,6 +1535,15 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .p-workspace__input .p-message_input_file_button.p-message_input_file_button--active, .p-workspace__input .p-message_input_file_button:hover {
 	background: var(--panda-purple);
 }
+.p-threads_footer__input .p-message_input_file_button.p-message_input_file_button--active, .p-threads_footer__input .p-message_input_file_button:hover {
+	background: var(--panda-purple);
+}
+.p-threads_footer__input .p-message_input_file_button .p-message_input_file_icon {
+	color: var(--panda-teal);
+}
+.p-threads_footer__input .p-message_input_file_button:hover .p-message_input_file_icon {
+	color: white;
+}
 
 /* sidebar bg */
 .c-scrollbar__child {
@@ -1558,10 +1567,44 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 	opacity: 0.5;
 }
 
-/* username in preview modal */
+/* preview modal */
 .p-file_viewer__header__edit_btn, .p-file_viewer__header__meta__name {
     color: var(--text);
     opacity: 0.5;
+}
+.p-file_viewer__nav {
+	background: var(--panda-blue);
+}
+
+
+/* emoji autocomplete */
+.c-texty_autocomplete {
+	background: var(--bg-highlight);
+}
+
+/* DM Selection Screen Fixes */
+.p-dm_browser_modal__list_row--active {
+	background: var(--bg-highlight);
+}
+.c-multi_select_input {
+	background: var(--bg-highlight);
+}
+.c-token .c-token--large {
+	background: var(--panda-pink);
+}
+.p-dm_browser_modal__list_heading {
+	color: var(--text);
+}
+.p-dm_browser_modal__list_row_meta {
+	color: var(--text);
+}
+.p-dm_browser_modal__controls_meta {
+	color: var(--text);
+	opacity: 0.6;
+}
+.c-base_entity__subtext {
+	color: var(--text);
+	opacity: 0.6;
 }
 /********************************************************
 *********************************************************
