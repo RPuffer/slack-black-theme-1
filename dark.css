@@ -1607,8 +1607,14 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 	opacity: 0.6;
 }
 
+/* active indicator icon */
 .c-presence--active {
 	color: var(--panda-blue);
+}
+
+/* button hover color */
+.c-button--primary:hover {
+	background: var(--panda-red);
 }
 /********************************************************
 *********************************************************
