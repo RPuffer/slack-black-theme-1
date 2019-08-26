@@ -1,5 +1,5 @@
-# RIP Dark Theme
-This no longer works on the most recent version of slack - currently looking for a way to implement it, will update if I can get it fixed
+# FIXED for Updated Versions of Slack
+I've got a workaround for new versions of slack that bundle all their code in `.asar` format (see new install instructions)
 
 # Slack Dark Theme
 inspired by [panda syntax](https://github.com/PandaTheme)
