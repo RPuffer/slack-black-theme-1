@@ -1678,8 +1678,12 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .p-classic_nav__right__button--flexpanes:hover {
     color: var(--panda-pink);
 }
-.p-classic_nav__model__title__info__pins:hover, {
+.p-classic_nav__model__title__info__pins:hover {
 	color: var(--panda-teal);
+}
+
+.c-filter_input__input[type=text][placeholder] {
+	color: var(--text);
 }
 /********************************************************
 *********************************************************
