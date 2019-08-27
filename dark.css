@@ -1624,6 +1624,10 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .c-unified_member--dark .c-presence {
 	color: var(--panda-blue);
 }
+
+.p-classic_nav__model__title__info__topic--focus-within .p-classic_nav__model__title__info__topic__text:before, .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before {
+	background: var(--bg-main);
+}
 /********************************************************
 *********************************************************
 *********************************************************
