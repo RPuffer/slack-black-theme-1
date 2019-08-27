@@ -1516,7 +1516,7 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 /* search bar hover */
 .p-classic_nav__right__search:hover {
 	border-color: var(--panda-blue);
-	opacity: 0.5;
+	opacity: 0.9;
 }
 .p-classic_nav__right__search:hover .p-classic_nav__right__search__icon {
 	color: var(--panda-pink);
@@ -1627,6 +1627,59 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 
 .p-classic_nav__model__title__info__topic--focus-within .p-classic_nav__model__title__info__topic__text:before, .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before {
 	background: var(--bg-main);
+}
+
+.p-message_pane_input__preview {
+	background-color: var(--bg-light);
+}
+.p-message_pane_input__preview_subtitle {
+	color: var(--text);
+}
+.p-message_pane_input__preview_metadata {
+	color: var(--text);
+    opacity: 0.55;
+}
+
+/* icon colors */
+.p-channel_details__apps_section .p-channel_details_section__icon {
+	color: var(--panda-teal);
+}
+.p-channel_details__highlights_section .p-channel_details_section__icon {
+    color: var(--panda-blue);
+}
+.p-channel_details__pinned_items_section .p-channel_details_section__icon {
+    color: var(--panda-orange);
+}
+.p-channel_details__members_list_section .p-channel_details_section__icon {
+    color: var(--panda-pink);
+}
+.p-channel_details__shared_files_section .p-channel_details_section__icon {
+    color: var(--panda-purple);
+}
+.p-channel_details__notification_prefs_section .p-channel_details_section__icon {
+    color: var(--panda-red);
+}
+.p-channel_details__channel_details_section .p-channel_details_section__icon {
+    color: var(--text);
+    opacity: 0.6;
+}
+.p-classic_nav__right__button--stars:hover {
+    color: var(--panda-orange);
+}
+.p-classic_nav__right__button--activity:hover {
+    color: var(--panda-red);
+}
+.p-classic_nav__model__button:hover {
+    color: var(--panda-teal);
+}
+.p-classic_nav__model__button--disabled, .p-classic_nav__model__button--disabled:hover {
+    color: var(--panda-blue);
+}
+.p-classic_nav__right__button--flexpanes:hover {
+    color: var(--panda-pink);
+}
+.p-classic_nav__model__title__info__pins:hover, {
+	color: var(--panda-teal);
 }
 /********************************************************
 *********************************************************
