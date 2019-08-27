@@ -1616,6 +1616,14 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .c-button--primary:hover {
 	background: var(--panda-red);
 }
+
+.p-threads_footer__info_tooltip {
+	color: var(--panda-teal);
+}
+
+.c-unified_member--dark .c-presence {
+	color: var(--panda-blue);
+}
 /********************************************************
 *********************************************************
 *********************************************************
